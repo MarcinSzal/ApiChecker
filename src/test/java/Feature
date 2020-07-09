@@ -1,0 +1,7 @@
+@Test
+Feature: ApiChecker
+
+  Scenario: 1 - Check if Rates API is available
+    Given Rates API for Latest Foreign Exchange rates
+    When The API is available
+    Then An automated test suite should run which will assert the success status of the response
